@@ -14,6 +14,68 @@ With everything from theme management to state handling already configured, you'
 - Pre-configured global theming in src/theme.tsx
 - Example slice and Redux store set up out of the box
 
+## 🚀 Starting a New Project with This Boilerplate
+
+To start a new project using this boilerplate, follow these steps:
+
+1. **Clone the Boilerplate Repository**:
+
+   - Open a terminal in Visual Studio Code.
+   - Run the following command to clone your boilerplate repository (replace my-project with your project)
+     ```sh
+     git clone https://github.com/Trisogene/vite-mui-rtk-boilerplate.git my-project
+     cd my-project
+     ```
+
+2. **Remove the Existing Git History**:
+
+   - This step ensures that your new project does not carry over the commit history from the boilerplate.
+     ```sh
+     rm -rf .git
+     ```
+
+3. **Initialize a New Git Repository**:
+
+   - Initialize a new Git repository for your new project.
+     ```sh
+     git init
+     ```
+
+4. **Install Dependencies**:
+
+   - Install the project dependencies using npm or yarn.
+     ```sh
+     npm install
+     # or
+     yarn install
+     ```
+
+5. **Update Project Information**:
+
+   - Update the `package.json` file with your new project's information (e.g., name, version, description).
+
+6. **Make Initial Commit**:
+
+   - Add all files to the new Git repository and make the initial commit.
+     ```sh
+     git add .
+     git commit -m "Initial commit from boilerplate"
+     ```
+
+7. **Create a New Repository on GitHub**:
+
+   - Go to GitHub and create a new repository for your new project.
+
+8. **Add Remote and Push to GitHub**:
+   - Add the new GitHub repository as a remote and push your initial commit.
+     ```sh
+     git remote add origin <new-repo-url>
+     git branch -M main
+     git push -u origin main
+     ```
+
+By following these steps, you will have a new project initialized from your boilerplate, ready for further development.
+
 ## ⚡ Quick Start
 
 1. Clone the repository:
