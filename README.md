@@ -1,0 +1,1 @@
+# vite-mui-rtk-boilerplate
